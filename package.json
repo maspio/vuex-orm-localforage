@@ -1,6 +1,6 @@
 {
   "name": "@masp/vuex-orm-localforage",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Vuex-ORM Plugin to sync the data against an indexedDB using localforage.",
   "main": "dist/vuex-orm-localforage.js",
   "module": "src/index.js",
@@ -8,15 +8,11 @@
     "watch": "webpack --watch --mode=development",
     "build": "webpack --mode=production",
     "lint": "eslint src/**/*.js test/**/*.js",
-    "test": "jest",
-    "release": "dotenv release-it"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/maspio/vuex-orm-localforage.git"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "keywords": [
     "vue",
@@ -52,13 +48,11 @@
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
-    "dotenv-cli": "^3.1.0",
     "eslint": "^6.3.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.17.0",
     "jest": "^24.9.0",
-    "release-it": "^13.6.3",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.8"
   }
